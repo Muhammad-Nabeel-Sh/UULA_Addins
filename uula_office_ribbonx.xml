@@ -1,0 +1,14 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+      <tab id="CustomTab" insertBeforeMso="TabHome" label="UULA">
+        <group id="SimpleControls" label="Study-Guide 3">
+          <button id="Button1" imageMso="ThemeFontsGallery" size="large" label="Avenir" screentip="Change font to Avenir" onAction="FontChange.FontChange" />
+          <button id="Button2" imageMso="ThemeFontsGallery" size="large" label="Font Size" screentip="Change font Size" onAction="ChangeFontSize.ChangeFontSize" />
+          <button id="Button3" imageMso="TableInsert" size="large" label="Table" screentip="Change Table Fonts" onAction="SetTableFont.SetTableFont" />
+          <button id="Button4" imageMso="SmartArtAddBullet" size="large" label="Bullets" screentip="Change Bullet Character and Indentation" onAction="Bullets.Bullets" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

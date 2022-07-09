@@ -1,0 +1,29 @@
+<a:extraClrSchemeLst /><a:custClrLst>
+        <a:custClr name="Unit Name">
+                <a:srgbClr val="2AC9DE" />
+        </a:custClr>
+        <a:custClr name="Lesson Header and Answers">
+                <a:srgbClr val="1F71DE" />
+        </a:custClr>
+        <a:custClr name="Question Header">
+                <a:srgbClr val="FF0000" />
+        </a:custClr>
+        <a:custClr name="Blanks Complete">
+                <a:srgbClr val="A6A6A6" />
+        </a:custClr>
+        <a:custClr name="Formula within Answers">
+                <a:srgbClr val="FF00FF" />
+        </a:custClr>
+        <a:custClr name="Given Input">
+                <a:srgbClr val="2AB672" />
+        </a:custClr>
+        <a:custClr name="Table Headers">
+                <a:srgbClr val="404040" />
+        </a:custClr>
+        <a:custClr name="Lines for Answers">
+                <a:srgbClr val="BFBFBF" />
+        </a:custClr>
+        <a:custClr name="Alternative Question">
+                <a:srgbClr val="7030A0" />
+        </a:custClr>
+</a:custClrLst>
