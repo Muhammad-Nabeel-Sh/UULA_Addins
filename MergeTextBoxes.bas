@@ -1,4 +1,4 @@
-Attribute VB_Name = "MergeTextBoxes2"
+Attribute VB_Name = "MergeTextBoxes"
 Sub MergeTextBoxes()
 ' This will merge the text from all selected text boxes into the first selected box then delete the other text boxes
 
