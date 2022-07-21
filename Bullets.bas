@@ -1,3 +1,4 @@
+Attribute VB_Name = "Bullets"
 Option Explicit
 Sub Bullets()
     Dim sld As Slide

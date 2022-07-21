@@ -1,3 +1,4 @@
+Attribute VB_Name = "ChangeFontSize"
 Sub ChangeFontSize()
     Dim sld As Slide
     Dim shp As Shape

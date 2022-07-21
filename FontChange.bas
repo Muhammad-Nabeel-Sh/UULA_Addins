@@ -1,3 +1,4 @@
+Attribute VB_Name = "FontChange"
 Option Explicit
 
 Sub FontChange()

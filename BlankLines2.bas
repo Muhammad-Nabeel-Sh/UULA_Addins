@@ -1,3 +1,4 @@
+Attribute VB_Name = "BlankLines2"
 Option Explicit
 Sub BlankLines2()
     ActiveWindow.Selection.TextRange.Font.Underline = msoTrue
