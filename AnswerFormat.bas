@@ -11,6 +11,7 @@ With ActiveWindow.Selection
     .TextRange.Font.Size = 11
     
     .TextRange2.ParagraphFormat.LeftIndent = 72 * 0.2
+    .TextRange2.ParagraphFormat.FirstLineIndent = 0
     .TextRange2.ParagraphFormat.SpaceAfter = 0
     .TextRange2.ParagraphFormat.SpaceBefore = 0
     '.TextRange2.ParagraphFormat.LineRuleWithin = msoTrue
