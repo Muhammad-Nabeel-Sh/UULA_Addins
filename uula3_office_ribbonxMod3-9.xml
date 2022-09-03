@@ -1,0 +1,51 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+        <ribbon startFromScratch="false">
+                <tabs>
+                        <tab id="CustomTab" insertBeforeMso="TabInsert" label="UULA">
+                                <group id="SimpleControls" label="Getting Started">
+                                        <button id="Button1" imageMso="ThemeFontsGallery" size="large" label="Avenir" screentip="Change font to Avenir" onAction="FontChange.FontChange" />
+                                        <button id="Button2" imageMso="ThemeFontsGallery" size="large" label="Font Size" screentip="Change font Size" onAction="ChangeFontSize.ChangeFontSize" />
+                                        <button id="Button3" imageMso="TableInsert" size="large" label="Table" screentip="Change Table Fonts" onAction="SetTableFontMod3.SetTableFontMod3" />
+                                        <button id="Button4" imageMso="SmartArtAddBullet" size="normal" label="Bullets" screentip="Change Bullet Character and Indentation" onAction="Bullets.Bullets" />
+                                        <button id="Button5" imageMso="HeaderInsertGallery" size="normal" label="Unit Header" screentip="Change the color of unit header" onAction="UnitColor.UnitColor" />
+                                        <button id="Button33" imageMso="TableInsert" size="normal" label="Table Full Width" onAction="TableWidth.TableWidth" />
+                                </group>
+
+                                <group id="SimpleControls2" label="Arabic Style Guide">
+                                        <button id="Button8" imageMso="TextBoxDrawMenu" size="normal" label="Answer" screentip="Format as Answer" onAction="AnswerFormat.AnswerFormat" />
+                                        <button id="Button9" imageMso="SmartArtInsertBulletRTL" size="normal" label="Bulleted Answer" screentip="Format as Bulleted Answer" onAction="BulletAnswers.BulletAnswers" />
+                                        <button id="Button10" imageMso="TextBoxDrawMenu" size="normal" label="Question Header" screentip="Format as Question Header" onAction="QuestionHeader.QuestionHeader" />
+                                        <button id="Button11" imageMso="SmartArtInsertBulletRTL" size="normal" label="Question" screentip="Format as Question" onAction="Questions.Questions" />
+                                        <button id="Button12" imageMso="TextBoxWordClassic" size="normal" label="Complete Answer" screentip="Format as Complete Answer" onAction="CompleteAns.CompleteAns" />
+                                        <button id="Button13" imageMso="TextBoxWordClassic" size="normal" label="Complete Answer Long" screentip="Format as Long Complete Answer" onAction="CompleteAnsLong.CompleteAnsLong" />
+                                        <button id="Button20" imageMso="ActiveXTextBox" size="large" label="Normal Text" screentip="Format as Normal Text" onAction="NormalText.NormalText" />
+                                        <button id="Button21" imageMso="MessageHeaderToggle" size="normal" label="Topic Name" screentip="Format as Topic Name" onAction="TopicName.TopicName" />
+                                        <button id="Button22" imageMso="Bullets" size="normal" label="Bullet Text" screentip="Format as Bulleted Text" onAction="BulletText.BulletText" />
+                                </group>
+
+                                <group id="SimpleControls3" label="English Style Guide">
+                                        <button id="Button14" imageMso="TextBoxDrawMenu" size="normal" label="Answer" screentip="Format as Answer" onAction="AnswerFormatEN.AnswerFormatEN" />
+                                        <button id="Button15" imageMso="SmartArtInsertBulletRTL" size="normal" label="Bulleted Answer" screentip="Format as Bulleted Answer" onAction="BulletAnswersEN.BulletAnswersEN" />
+                                        <button id="Button16" imageMso="TextBoxDrawMenu" size="normal" label="Question Header" screentip="Format as Question Header" onAction="QuestionHeaderEN.QuestionHeaderEN" />
+                                        <button id="Button17" imageMso="SmartArtInsertBulletRTL" size="normal" label="Question" screentip="Format as Question" onAction="QuestionsEN.QuestionsEN" />
+                                        <button id="Button18" imageMso="TextBoxWordClassic" size="normal" label="Complete Answer" screentip="Format as Complete Answer" onAction="CompleteAnsEN.CompleteAnsEN" />
+                                        <button id="Button19" imageMso="TextBoxWordClassic" size="normal" label="Complete Answer Long" screentip="Format as Long Complete Answer" onAction="CompleteAnsLongEN.CompleteAnsLongEN" />
+                                        <button id="Button24" imageMso="ActiveXTextBox" size="large" label="Normal Text" screentip="Format as Normal Text" onAction="NormalTextEN.NormalTextEN" />
+                                        <button id="Button25" imageMso="MessageHeaderToggle" size="normal" label="Topic Name" screentip="Format as Topic Name" onAction="TopicNameEN.TopicNameEN" />
+                                        <button id="Button26" imageMso="Bullets" size="normal" label="Bullet Text" screentip="Format as Bulleted Text" onAction="BulletTextEN.BulletTextEN" />
+                                </group>
+                                <group id="SimpleControls4" label="Common Formatting">
+                                        <button id="Button6" imageMso="ViewRulerWord" size="normal" label="Tab Stop" screentip="Insert a tab stop for blank lines" onAction="BlankLines1.BlankLines1" />
+                                        <button id="Button27" imageMso="ViewRulerWord" size="normal" label="Custom Tab Stop" screentip="Insert a tab stop for blank lines" onAction="CustomTab.CustomTab" />
+                                        <button id="Button7" imageMso="OutlineDashesGallery" size="normal" label="Blanks" screentip="Add blanks to the assigned tab stop" onAction="BlankLines2.BlankLines2" />
+                                        <button id="Button23" imageMso="EquationEdit" size="normal" label="Equation Answer" screentip="Format as an Equation within an Answer" onAction="EquationAns.EquationAns" />
+                                        <button id="Button28" imageMso="ParagraphSpaceBefore" size="normal" label="No Space" onAction="No_space.set_gap" />
+                                        <button id="Button29" imageMso="ParagraphSpaceBefore" size="normal" label="Single Space" onAction="Single_spaceM.set_gap" />
+                                        <button id="Button30" imageMso="ParagraphSpaceBefore" size="normal" label="Triple Spaces" onAction="Triple_spacesM.set_gap" />
+                                        <button id="Button31" imageMso="ParagraphSpaceBefore" size="normal" label="Custom Spacing" onAction="CustomSpaceM.set_gap" />
+                                        <button id="Button32" imageMso="ObjectsGroup" size="normal" label="Merge Textboxes" onAction="MergeTextBoxes.MergeTextBoxes" />
+                                </group>
+                        </tab>
+                </tabs>
+        </ribbon>
+</customUI>
