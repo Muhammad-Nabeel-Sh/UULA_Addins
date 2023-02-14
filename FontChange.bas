@@ -10,8 +10,8 @@ Sub FontChange()
         For Each shp In sld.Shapes
             If shp.HasTextFrame Then        ' Not all shapes do
             If shp.TextFrame.HasText Then        ' the shape may contain no text
-            shp.TextFrame.TextRange.Font.Name = "Avenir Next Arabic"
-            shp.TextFrame.TextRange.Font.NameComplexScript = "Avenir Next Arabic"
+            shp.TextFrame.TextRange.Font.Name = "UULA Sans"
+            shp.TextFrame.TextRange.Font.NameComplexScript = "UULA Sans"
         End If
     End If
 Next shp

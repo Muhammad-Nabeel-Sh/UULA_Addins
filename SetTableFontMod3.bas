@@ -15,8 +15,8 @@ Sub SetTableFontMod3()
                     For J = 1 To oTbl.Rows.Count
                         With oTbl.Cell(J, I).Shape.TextFrame.TextRange.Font
                             .Size = 11
-                            .Name = "Avenir Next Arabic"
-                            .NameComplexScript = "Avenir Next Arabic"
+                            .Name = "UULA Sans"
+                            .NameComplexScript = "UULA Sans"
                         End With
 
                         If oTbl.Cell(J, I).Shape.TextFrame.TextRange.Font.Color = RGB(24, 23, 23) Then

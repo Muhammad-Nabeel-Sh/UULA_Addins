@@ -14,31 +14,32 @@ Sub Bullets()
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Cairo Black" Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "Avenir Next Arabic Black"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
                 .ParagraphFormat.Bullet.Character = 81
+                .Font.Bold = msoTrue
                 End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Type = ppBulletPicture Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "Avenir Next Arabic"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Wingdings 2" And shp.TextFrame.TextRange.ParagraphFormat.Bullet.Character = 153 Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "Avenir Next Arabic"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Wingdings 2" And shp.TextFrame.TextRange.ParagraphFormat.Bullet.Character = 129 Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "Avenir Next Arabic"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Wingdings" And shp.TextFrame.TextRange.ParagraphFormat.Bullet.Character = 161 Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "Avenir Next Arabic"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If

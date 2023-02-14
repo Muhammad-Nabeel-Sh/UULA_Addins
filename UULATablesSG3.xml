@@ -1,0 +1,375 @@
+<a:tblStyle styleId="{32923DC2-7C0A-406C-8734-2FCF45F52BF7}" styleName="UULA3">
+    <a:wholeTbl>
+        <a:tcTxStyle>
+            <a:font>
+                <a:latin typeface="Avenir Next Arabic" />
+                <a:ea typeface="Avenir Next Arabic" />
+                <a:cs typeface="Avenir Next Arabic" />
+                <a:font script="Arab" typeface="Avenir Next Arabic" />
+            </a:font>
+            <a:srgbClr val="000000" />
+        </a:tcTxStyle>
+        <a:tcStyle>
+            <a:tcBdr>
+                <a:left>
+                    <a:ln w="6350" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:left>
+                <a:right>
+                    <a:ln w="6350" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:right>
+                <a:top>
+                    <a:ln w="6350" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:top>
+                <a:bottom>
+                    <a:ln w="6350" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:bottom>
+                <a:insideH>
+                    <a:ln w="6350" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:insideH>
+                <a:insideV>
+                    <a:ln w="6350" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:insideV>
+            </a:tcBdr>
+        </a:tcStyle>
+    </a:wholeTbl>
+    <a:band1H>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="FFFFFF" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:band1H>
+    <a:band2H>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="F1F1F1" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:band2H>
+    <a:band1V>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:band1V>
+    <a:band2V>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:band2V>
+    <a:lastCol>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:lastCol>
+    <a:firstCol>
+        <a:tcTxStyle b="on">
+            <a:srgbClr val="000000" />
+        </a:tcTxStyle>
+        <a:tcStyle>
+            <a:tcBdr />
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="DAE0E9" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:firstCol>
+    <a:lastRow>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:lastRow>
+    <a:seCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:seCell>
+    <a:swCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:swCell>
+    <a:firstRow>
+        <a:tcTxStyle b="on">
+            <a:srgbClr val="000000" />
+        </a:tcTxStyle>
+        <a:tcStyle>
+            <a:tcBdr />
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="CAD0D8" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:firstRow>
+    <a:neCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:neCell>
+    <a:nwCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:nwCell>
+</a:tblStyle><a:tblStyle styleId="{31036E8B-8626-499D-9364-DF32F14FA33F}" styleName="UULAFormula3">
+    <a:wholeTbl>
+        <a:tcTxStyle>
+            <a:font>
+                <a:latin typeface="Avenir Next Arabic" />
+                <a:ea typeface="Avenir Next Arabic" />
+                <a:cs typeface="Avenir Next Arabic" />
+                <a:font script="Arab" typeface="Avenir Next Arabic" />
+            </a:font>
+            <a:srgbClr val="000000" />
+        </a:tcTxStyle>
+        <a:tcStyle>
+            <a:tcBdr>
+                <a:left>
+                    <a:ln w="0" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:left>
+                <a:right>
+                    <a:ln w="0" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:right>
+                <a:top>
+                    <a:ln w="0" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:top>
+                <a:bottom>
+                    <a:ln w="0" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:bottom>
+                <a:insideH>
+                    <a:ln w="0" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:insideH>
+                <a:insideV>
+                    <a:ln w="12700" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:insideV>
+            </a:tcBdr>
+        </a:tcStyle>
+    </a:wholeTbl>
+    <a:band1H>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="F1F1F1" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:band1H>
+    <a:band2H>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="FFFFFF" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:band2H>
+    <a:band1V>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:band1V>
+    <a:band2V>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:band2V>
+    <a:lastCol>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:lastCol>
+    <a:firstCol>
+        <a:tcTxStyle b="on">
+            <a:srgbClr val="000000" />
+        </a:tcTxStyle>
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:firstCol>
+    <a:lastRow>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:lastRow>
+    <a:seCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:seCell>
+    <a:swCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:swCell>
+    <a:firstRow>
+        <a:tcTxStyle b="on">
+            <a:srgbClr val="000000" />
+        </a:tcTxStyle>
+        <a:tcStyle>
+            <a:tcBdr>
+                <a:bottom>
+                    <a:ln w="28575" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:bottom>
+                <a:insideV>
+                    <a:ln w="0" cap="flat" cmpd="sng">
+                        <a:solidFill>
+                            <a:srgbClr val="D9D9D9" />
+                        </a:solidFill>
+                        <a:prstDash val="solid" />
+                        <a:round />
+                        <a:headEnd type="none" w="sm" len="sm" />
+                        <a:tailEnd type="none" w="sm" len="sm" />
+                    </a:ln>
+                </a:insideV>
+            </a:tcBdr>
+            <a:fill>
+                <a:solidFill>
+                    <a:srgbClr val="FFFFFF" />
+                </a:solidFill>
+            </a:fill>
+        </a:tcStyle>
+    </a:firstRow>
+    <a:neCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:neCell>
+    <a:nwCell>
+        <a:tcTxStyle />
+        <a:tcStyle>
+            <a:tcBdr />
+        </a:tcStyle>
+    </a:nwCell>
+</a:tblStyle>
