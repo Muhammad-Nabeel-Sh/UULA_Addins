@@ -44,7 +44,7 @@ Sub Bullets()
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Wingdings" And shp.TextFrame.TextRange.ParagraphFormat.Bullet.Character = 161 Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
