@@ -14,26 +14,31 @@ Sub Bullets()
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Cairo Black" Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
                 .ParagraphFormat.Bullet.Character = 81
-                .Font.Bold = msoTrue
                 End With
+            End If
+            If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Avenir Next Arabic Black" Then
+                With shp.TextFrame.TextRange
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
+                .ParagraphFormat.Bullet.Character = 81
+            End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Type = ppBulletPicture Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Wingdings 2" And shp.TextFrame.TextRange.ParagraphFormat.Bullet.Character = 153 Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Wingdings 2" And shp.TextFrame.TextRange.ParagraphFormat.Bullet.Character = 129 Then
                 With shp.TextFrame.TextRange
-                .ParagraphFormat.Bullet.Font.Name = "UULA Sans"
+                .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
@@ -48,3 +53,5 @@ Sub Bullets()
     Next
     Next
 End Sub
+
+
