@@ -18,8 +18,11 @@ Sub SmartArtFont()
       Next i
    End If
    
+   If shp.Type = msoChart Then
+      shp.Chart.ChartArea.Format.TextFrame2.TextRange.Font.Name = "UULA Sans"
+      shp.Chart.ChartArea.Format.TextFrame2.TextRange.Font.NameComplexScript = "UULA Sans"
+    End If
+   
     Next shp
     Next sld
 End Sub
-
-

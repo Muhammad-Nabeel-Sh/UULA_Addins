@@ -9,9 +9,7 @@ Sub Bullets()
     If shp.HasTextFrame = True Then
         If shp.TextFrame.HasText = True Then
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Visible = True Then
-                shp.TextFrame2.TextRange.ParagraphFormat.LeftIndent = 72 * 0.2
-                shp.TextFrame2.TextRange.ParagraphFormat.FirstLineIndent = -(72 * 0.2)
-            End If
+            
             If shp.TextFrame.TextRange.ParagraphFormat.Bullet.Font.Name = "Cairo Black" Then
                 With shp.TextFrame.TextRange
                 .ParagraphFormat.Bullet.Font.Name = "UULA Sans Black"
@@ -48,10 +46,17 @@ Sub Bullets()
                 .ParagraphFormat.Bullet.Character = 79
                 End With
             End If
+                
+                shp.TextFrame2.TextRange.ParagraphFormat.Bullet.RelativeSize = 1
+                shp.TextFrame2.TextRange.ParagraphFormat.LeftIndent = 72 * 0.2
+                shp.TextFrame2.TextRange.ParagraphFormat.FirstLineIndent = -(72 * 0.2)
+            End If
+            
         End If
     End If
     Next
     Next
 End Sub
+
 
 
