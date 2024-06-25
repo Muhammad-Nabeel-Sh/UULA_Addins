@@ -47,7 +47,7 @@ Sub CustomNumberSlides()
             ' Edit these to change the formatting of the number
             With .TextFrame.TextRange
                 .ParagraphFormat.Alignment = ppAlignCenter
-                .Font.Name = "UULASans"
+                .Font.Name = "UULA Sans"
                 .Font.Size = 12
                 .Font.Color.RGB = RGB(166, 166, 166)
             End With
